@@ -1,0 +1,63 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:white;
+    --color5:#c9c9c9;
+    --color6:#dcdcdc;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 250px;
+    background-color: var(--color6);
+    gap: 30px;
+}
+.experience-container{
+    display: grid;
+    grid-template-columns:25px 310px 25px ;
+    width: 370px;
+    height: 150px;
+}
+.experience-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    font-size: 20px;
+}
+.experience-cards1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.experience-cards2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-button-bx{
+    background-color: var(--color6);
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+}
+.bx.bx-chevron-right{
+    font-size: 25px;
+    color: var(--color4);
+}
+.bx.bx-chevron-left{
+    font-size: 25px;
+    color: var(--color4);
+}

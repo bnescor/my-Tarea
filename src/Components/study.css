@@ -1,0 +1,53 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:white;
+    --color5:#c9c9c9;
+    --color6:#dcdcdc;
+}
+.study{
+    width: 350px;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.study-box{
+    width: 330px;
+    height: 240px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+.card1{
+    background-color:#dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+.card1 h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.card2{
+    background-color:#dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+.card2 h2{
+    font-size: 20px;
+    font-weight: 600;
+}

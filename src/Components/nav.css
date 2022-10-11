@@ -1,0 +1,18 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:white;
+    --color5:#c9c9c9;
+    --color6:#dcdcdc;
+}
+.menu{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.bx.bx-menu{
+    color: white;
+    font-size: 35px;
+}

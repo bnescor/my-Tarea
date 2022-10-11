@@ -1,0 +1,19 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:white;
+    --color5:#c9c9c9;
+    --color6:#dcdcdc;
+}
+.footer{
+    width: 375px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color3);
+    color: var(--color4);
+    margin-top: 30px;
+}

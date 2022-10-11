@@ -1,0 +1,52 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:#5aa48a;
+    --color5:#bad4d5;
+    --color6:#304843;
+}
+.aboutme{
+    width: 350px;
+    margin-top: 50px;
+}
+.aboutme-h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.aboutme__div{
+    width: 330px;
+    height: 150px;
+    border-left: 5px solid var(--color3);
+}
+.aboutme__div-p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.button-div{
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.download{
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:var(--color3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    gap: 5px;
+}
+.bx.bx-down-arrow-alt {
+    color: white;
+    font-size: 30px;
+}

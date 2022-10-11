@@ -1,0 +1,19 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:white;
+    --color5:#c9c9c9;
+    --color6:#dcdcdc;
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: 375px;
+    height: 320px;
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}

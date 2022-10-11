@@ -1,0 +1,52 @@
+:root{
+    --color1:#369cdd;
+    --color2:#e9c6a0;
+    --color3:#147c5c;
+    --color4:#5aa48a;
+    --color5:#bad4d5;
+    --color6:#304843;
+}
+.suscripcion{
+    width: 350px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#dcdcdc;
+    gap: 5px;
+    border-radius: 20px;
+}
+.suscripcion__p{
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+    font-weight: 600;
+}
+.suscripcion__div{
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.fonts-input{
+    width: 200px;
+    height: 30px;
+    background-color:#c9c9c9;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.bt-comfirt{
+    border: none;
+    background-color:  var(--color3);
+    color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 100px;
+    height: 25px;
+    margin-right: 10px;
+}
+
